@@ -1,0 +1,251 @@
+@mixin heading-one {
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+  @include MIN_1024 {
+    font-size: 4rem;
+    line-height: 4.4rem;
+  }
+}
+
+@mixin heading-two {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin heading-three {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin subtitle-one {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  @include MIN_1024 {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+}
+
+@mixin subtitle-two {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+
+  @include MIN_768 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+  }
+  @include MIN_1024 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+  }
+}
+
+@mixin subtitle-three {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin body-one {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin body-two {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin body-three {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin body-four {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin footnote-one {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin footnote-two {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+  }
+}
+
+@mixin caption-one {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: 0em;
+
+  @include MIN_768 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+  @include MIN_1024 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0em;
+  }
+}

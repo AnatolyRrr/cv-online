@@ -1,0 +1,25 @@
+@mixin size($width: 1em, $height: $width) {
+  height: $height;
+  width: $width;
+}
+@mixin size-limited($width: 1em, $height: $width) {
+  height: $height;
+  width: $width;
+  min-height: $height;
+  min-width: $width;
+}
+@mixin prefix($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+@mixin animation($animation-name, $duration, $timing-function, $delay, $iteration-count, $direction) {
+  animation-name: $animation-name;
+  animation-duration: $duration;
+  animation-timing-function: $timing-function;
+  animation-delay: $delay;
+  animation-iteration-count: $iteration-count;
+  animation-direction: $direction;
+}

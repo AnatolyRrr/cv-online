@@ -1,0 +1,61 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  @include body-two;
+  background: $greySmoke;
+}
+
+h1 {
+  @include heading-one;
+}
+
+h2 {
+  @include heading-two;
+}
+
+h3 {
+  @include heading-three;
+}
+
+h4 {
+  @include subtitle-one;
+}
+
+h5 {
+  @include subtitle-two;
+}
+
+h6 {
+  @include subtitle-three;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 1em;
+  background-color: $secondary;
+}
